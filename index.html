@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    
+  </head>
+  
+  <body>
+    <header>
+      <h1>Responsive Redesign</h1>
+    </header>
+    <main>
+      <div class="section-1">
+        <h3><u>Identifying Usability Problems</u></h3>
+        <div class="picking-web-page">
+          <h4>Picking a Web Page</h4>
+          <div class="website-grid">
+            <p>
+              I was drawn to pick the Penny Juice website due the its clear lack of unifying color schemes, its confusing and messy presentation, and it's shortfalls for mobile responsiveness. Below is a screenshot from the website's home page as well as a link.
+            </p>
+            <p><a href="https://www.pennyjuice.com">https://www.pennyjuice.com</a></p>
+            <img class="website-image" alt="Penny Juice website image" src="pennyjuicescreenshot.png">
+          </div> 
+        </div>
+        <div class="finding-problems">
+          <h4>Problems with the Website</h4>
+          <ul>
+            <li>There is a lack of a unifying color scheme</li>
+            <li>Some text does not have the best contrast with its background color; as an example, the "100 blended fruit..." text over the website's main image conflicts with the colors around it</li>
+            <li>The website essentially falls apart with narrow screens (formatting errors begin at widths less than 1025 pixels)</li>
+            <li>There is a lot of scrolling a user has to do to get through what is ultimately not a whole lot of content</li>
+            <li>There is inconsistent formatting of section headers creates unecessary confusion</li>
+            <li>The sections and their text are quite repetitive</li>
+            <li>There seems to be a lot of extra unnecessary space</li>
+            <li>The image with the nutrition facts is counterintuitive as it's nearly impossible to read the nutrition facts themselves</li>
+            <li>The link to Facebook as well as the company's phone number that appears while scrolling down the website seems awkward and out-of-place</li>
+          </ul>
+        </div>
+        <div class="accessibility">
+          <h4>Detecting Possibile Accesibility Problems</h4>
+          <p>I certainly agree with the problems detected by WebAIM, most notably those raised about the website's low contrast and redundant links. WebAIM detected eight instances of very low color contrast, which is quite apparent upon first visiting the site. It also detected six redundant links, another problem I had noticed in my earlier assessment. The multiple redundant links also speak to the redundancy of information of the website in general, which becomes even more obvious when reading and comparing the text under each section.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="section-2">
+        <h3><u>Visual Redesign</u></h3>
+          <h4>Low-Fidelity Wireframing</h4>
+          <div class="wireframes">
+            <div class="mobile">
+              <h5><b>MOBILE</b></h5>
+              <img class="wireframe-mobile-img" alt="Phone Wireframe" src="iPhone-Wireframe.png">
+            </div>
+            <div class="tablet">
+              <h5><b>TABLET</b></h5>
+              <img class="wireframe-tablet-img" alt="Tablet Wireframe" src="Tablet-Wireframe.png">
+            </div>
+            <div class="desktop">
+              <h5><b>DESKTOP</b></h5>
+              <img class="wireframe-desktop-img" alt="Desktop Wireframe" src="Desktop-Wireframe.png">
+            </div>
+        </div>
+        <hr>
+        <div class="style-guide">
+          <h4>Visual Design Style Guide</h4>
+          <img class="style-guide-img" alt="Design Style Guide" src="style-guide-pic.png">
+        </div>
+        <hr>
+        <div class="hi-fi">
+          <h4>High-Fidelity Prototyping</h4>
+          <h6>Mobile Design</h6>
+          <div class="hi-fi-grid-1">
+            <div class="hi-fi-pdf">
+              <embed src= "mobile-hifi.pdf" type="application/pdf" width= "500" height= "480">
+            </div>
+            <div class="mobile-annotation">
+              <img class="mobile-ann-image" src="mobile-hifi-1.png" alt="Mobile HiFi Annotations">
+            </div>
+            <div class="annotation">
+              <img class="mobile-ann-image" src="mobile-hifi-2.png" alt="Mobile HiFi Annotations">
+            </div>
+          </div>
+          <h6>Tablet Design</h6>
+          <div class="hi-fi-grid-2">
+            <div class="hi-fi-pdf tablet-pdf">
+              <embed src= "tablet-hifi.pdf" type="application/pdf" width= "500" height= "582">
+            </div>
+            <div class="annotation tablet-ann tablet-ann-1">
+              <img class="tablet-ann-image-1" src="tablet-hifi-1.png" alt="Tablet HiFi Annotations">
+              <img class="tablet-ann-image-2" src="tablet-hifi-2.png" alt="Tablet HiFi Annotations">
+            </div>
+          </div>
+          <h6>Desktop Design</h6>
+            <div class="hi-fi-pdf desktop-pdf">
+              <embed src= "desktop-hifi.pdf" type="application/pdf" width= "700" height= "500">
+            </div>
+            <div class="annotation desktop-ann desktop-ann-1">
+              <img class="desktop-ann-image-1" src="desktop-hifi.png" alt="Desktop HiFi Annotations">
+            </div>
+        </div>
+      </div>
+      <div class="section-3">
+        <h3><u>Responsive Redesign</u></h3>
+        <p>Using HTML and CSS, I recreated the Penny Juice home page: <a href="https://curiouselephant322.github.io/Penny-Juise-Redesign/">https://curiouselephant322.github.io/Penny-Juise-Redesign/</a></p>
+      </div>
+    </main>
+    <script src="" async defer></script>
+  </body>
+</html>
